@@ -1,0 +1,23 @@
+*{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.contact-container{
+    position: relative;
+    height: 200px;
+    
+}
+
+
+.contact-link{
+    font-size: 36px;
+    margin: 0px 5px;
+    /* display: inline-block;  */
+    color: black;
+}
+
+.contact-link:hover{
+    font-size: 46px;
+    color: black;
+}
+

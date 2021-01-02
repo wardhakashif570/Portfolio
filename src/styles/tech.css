@@ -1,0 +1,35 @@
+.tech-container{
+    background-image: url('../images/techbg.jpg');
+    height: 600px;
+    color: black;
+    transform: skewY(5deg);
+}
+
+.sub-container{
+    /* display: flex; */
+    transform: skewY(-5deg);
+    position: relative;
+    top: 30px;
+    text-align: center;
+}
+
+.tech-list{
+    list-style: none;
+    padding: 0%;
+}
+
+.tech-headng{
+    width:150px;
+    margin: 12px auto ;
+}
+
+.feature-box{
+    background-color: white;
+    border: 2px solid black;
+}
+
+@media only screen and (max-width: 767px){
+    .tech-container{
+        height: 1700px;
+    }
+}

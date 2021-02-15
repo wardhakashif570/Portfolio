@@ -1,7 +1,7 @@
 import React from 'react'
 import Right from '../images/rightarrow.png'
 import Left from '../images/leftarrow.png'
-import Warda from '../images/warda.jpg'
+import Warda from '../images/warda.jpeg'
 
 import AOS from 'aos';
 
@@ -31,7 +31,7 @@ const AboutMe = () => {
                     
                 </div>
                 <div className="col-md-6 my-5 py-5" style={{ textAlign: 'center' }} data-aos="flip-left">
-                    <img src={Warda} alt="me" className="img-thumbnail" style={{height:'50vh'}} />
+                    <img src={Warda} alt="me" className="img-thumbnail" style={{height:'40vh',width:'30vh'}} />
                 </div>
             </div>
             <div className="row">
